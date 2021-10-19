@@ -100,9 +100,9 @@
 
 // function getAmount(item, amount) {
 //     amount = Number(amount);
-//     let amountmass = [];
-//     for (let i = 0; i <= amount-1; i++) {
-//         amountmass.push(item);
+//     let amountMass = [];
+//     for (let i = 0; i < amount; i++) {
+//         amountMass.push(item);
 //     }
 //     return amountmass;
 // }
@@ -169,9 +169,9 @@
 // Написать функцию isInteger(x), которая определяет, является ли число целым, и возвращает true либо false.
 
 // function isInteger(x){
-//     numbers = 0;
+//     numbers = 1.5;
 //     returnednumb = 0;
-//     if(x>numbers){
+//     if(numbers % 1 == 0){
 //         returnednumb = true;
 //     } else {
 //         returnednumb = false;
